@@ -1,0 +1,19 @@
+main {
+  margin: 20px 0;
+  .main-inner {
+    display: flex;
+    justify-content: space-between;
+
+    app-left-bar {
+      width: 20%;
+    }
+
+    app-middle-bar {
+      width: 50%;
+    }
+
+    app-right-bar {
+      width: 20%;
+    }
+  }
+}

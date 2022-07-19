@@ -1,0 +1,23 @@
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <section class="header-menu" style="align-items: flex-start;">
+        <img src="/assets/images/logo.png" alt="" class="header-logo">
+        <mat-label>{{email}}</mat-label>
+      </section>
+
+      <section class="header-menu">
+        <nav class="header-nav">
+          <ul>
+            <li *ngFor="let item of array"><button mat-button>{{item.cost}}</button></li>
+          </ul>
+        </nav>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Search input</mat-label>
+          <input matInput placeholder="task" value="">
+        </mat-form-field>
+      </section>
+    </div>
+  </div>
+</header>
